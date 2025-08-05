@@ -244,6 +244,14 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+/* Ajouter de style pour le footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
