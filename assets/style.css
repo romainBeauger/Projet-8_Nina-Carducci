@@ -42,6 +42,14 @@ body {
 	width: 20px;
 }
 
+/* Ajout background pour meilleur contraste */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	background-color: #333333;
+	border-radius: 50%;
+	padding: 30px;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -102,7 +110,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #5D5928;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
